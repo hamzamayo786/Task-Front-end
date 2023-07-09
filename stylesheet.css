@@ -1,0 +1,484 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: black;
+}
+
+	/*Navbar css*/
+.nav-custom{
+	box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
+}
+
+.search-custom{
+	background-color: black;
+	border: none;
+	padding-left: 30px;
+}
+
+.search-custom::placeholder{
+	color: white;
+}
+
+.inputsearch{
+	position: relative;
+}
+
+
+.bi-search{
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	transform: translateY(-50%);
+}
+
+
+.login-btn{
+	background-color: #92d414;
+	border: none;
+}
+
+.login-btn:hover{
+	background-color: #92d414;
+}
+
+.join-btn:hover{
+	background-color: black;
+	border: 1px solid white;
+}
+
+/*main section */
+
+/*left section styling start from here */
+
+.card{
+	border: none;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.card-img-top{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
+.card-body a{
+	background-color: #92d414;
+	border: none;
+	border-radius: 12px;
+}
+.card-body a:hover{
+	background-color: #92d414;
+	border: none;
+}
+
+.general p{
+	background-color: #363636;
+}
+
+.dark{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bi-moon-fill{
+	position: absolute;
+	top: 30%;
+	left: 10px;
+	transform: translateY(-50%);
+}
+
+.dark p{
+	padding-left: 35px;
+}
+
+ /*dark mode switch button css*/
+
+ input[type="checkbox"]
+ {
+ 	-webkit-appearance: none;
+ 	visibility: hidden;
+ 	display: none;
+
+ }
+ .check{
+ 	position: relative;
+ 	display: block;
+ 	width: 40px;
+ 	height: 20px;
+ 	background: #92d414;
+ 	cursor: pointer;
+ 	border-radius: 20px;
+ 	overflow: hidden;
+ 	transition: ease-in 0.5s;
+ }
+
+ input[type="checkbox"]:checked ~ .check{
+ 	background-color: #fff;
+ 	box-shadow: 0 0 0 1200px #92d414;
+
+
+ }
+
+ .check:before{
+ 	content: " ";
+ 	position: absolute;
+ 	top: 2px;
+ 	left: 2px;
+ 	background: white;
+ 	width: 16px;
+ 	height: 16px;
+ 	border-radius: 50%;
+ 	transition: 0.5s;
+
+ }
+
+ input[type="checkbox"]:checked ~ .check:before{
+ 	transform: translateX(-50px);
+
+
+}
+
+.check:after{
+ 	content: " ";
+ 	position: absolute;
+ 	top: 2px;
+ 	right: 2px;
+ 	background: black;
+ 	width: 16px;
+ 	height: 16px;
+ 	border-radius: 50%;
+ 	transition: 0.5s;
+ 	transform: translateX(50px);
+
+
+ }
+
+ input[type="checkbox"]:checked ~ .check:after{
+ 	transform: translateX(0px);
+}
+
+/*help center block*/
+.help{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bi-lock-fill{
+	position: absolute;
+	top: 30%;
+	left: 10px;
+	transform: translateY(-50%);
+}
+
+.help p{
+	padding-left: 35px;
+}
+
+/*app language block*/
+
+.App-language{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bi-globe{
+	position: absolute;
+	top: 30%;
+	left: 10px;
+	transform: translateY(-50%);
+}
+
+.App-language p{
+	padding-left: 35px;
+}
+
+/*fav serviees block*/
+
+.fav-services{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bi-heart-fill{
+	position: absolute;
+	top: 30%;
+	left: 10px;
+	transform: translateY(-50%);
+}
+
+.fav-services p{
+	padding-left: 35px;
+}
+
+/*address block*/
+
+
+.address{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bi-geo-alt-fill{
+	position: absolute;
+	top: 30%;
+	left: 10px;
+	transform: translateY(-50%);
+}
+
+.address p{
+	padding-left: 35px;
+}
+
+/*support block here*/
+
+.support{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bi-question-circle-fill{
+	position: absolute;
+	top: 30%;
+	left: 10px;
+	transform: translateY(-50%);
+}
+
+.support p{
+	padding-left: 35px;
+}
+
+/*privacy block here*/
+.privacy{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bi-shield-fill-check{
+	position: absolute;
+	top: 30%;
+	left: 10px;
+	transform: translateY(-50%);
+}
+
+.privacy p{
+	padding-left: 35px;
+}
+
+/*term and condition block now*/
+.term{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bi-shield-fill-exclamation{
+	position: absolute;
+	top: 30%;
+	left: 10px;
+	transform: translateY(-50%);
+}
+
+.term p{
+	padding-left: 35px;
+}
+
+/*legel notices block here*/
+
+.legal{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bi-hammer{
+	position: absolute;
+	top: 30%;
+	left: 10px;
+	transform: translateY(-50%);
+}
+
+.legal p{
+	padding-left: 35px;
+}
+
+
+/*about section now here */
+
+.about{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bi-info-circle-fill{
+	position: absolute;
+	top: 30%;
+	left: 10px;
+	transform: translateY(-50%);
+}
+
+.about p{
+	padding-left: 35px;
+}
+
+
+
+/*rate us section now here*/
+
+.rate{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bi-star-fill{
+	position: absolute;
+	top: 30%;
+	left: 10px;
+	transform: translateY(-50%);
+}
+
+.rate p{
+	padding-left: 35px;
+}
+
+.logout{
+	display: flex;
+	justify-content: center;
+}
+
+.logout a{
+	background-color: #92d414;
+	text-decoration: none;
+	border-radius: 10px;
+	padding: 12px 90px 12px 90px;
+}
+
+/*left section styling end here*/
+				
+					/*Now right section css start from here */
+
+.right-main{
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+ 	background-color: #363636;
+}
+
+
+.left-custom{
+	background-color: #363636;
+
+}
+
+.inputsearch1{
+	margin: 10px 0 10px 0;
+	padding: 10px 0 10px 5px;
+	position: relative;
+	border-radius: 15px;
+}
+.chat-img{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #363636
+}
+.chat-img img{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%
+
+}
+
+.chat-content{
+	background-color: #363636;
+}
+
+.chat-head{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #363636;
+	padding-top: 15px;
+	padding-bottom: 0;
+	margin-bottom:0;
+}
+
+.chat-para{
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.chat-head p{
+	font-size: 1rem;
+	padding-bottom: 0;
+	margin-bottom:0;
+}
+
+.chat-head h5{
+	font-size: 1.3rem;
+	background-color: #363636;
+	padding-bottom: 0;
+	margin-bottom:0;
+
+}
+.chat-content p{
+	background-color: #363636;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 1rem;
+	
+}
+
+.chat-main{
+	margin: 0 1px 0 1px;
+	border-bottom: 1px solid white;
+}
+
+
+/*chat details class css*/
+
+.chat-bg{
+	background-color: #363636;
+}
+
+.chat-detail{
+	display: flex;
+	align-items: center;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	margin: 10px 0 10px 0;
+	padding: 12px 0 12px 5px;
+
+}
+
+.chat-detail img{
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+	margin: 0 10px 0 10px;
+}
+.chat-detail h5{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.chat-back{
+	margin-top: 0;
+	display: flex;
+	align-items: flex-end;
+	background-color: black;
+}
